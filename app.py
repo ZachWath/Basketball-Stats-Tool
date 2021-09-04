@@ -67,20 +67,6 @@ def display_stats(team):
         """.format(player_list, guardians_list))
 
 
-
-
-
-
-
-
-clean_data()
-
-teams_list2 = balance_teams (player_list)
-Panthers = teams_list2[0]
-Bandits = teams_list2[1]
-Warriors = teams_list2[2]
-
-
 def select_option ():
     selection = input("   Enter an option:   ")
     while True:
@@ -134,6 +120,19 @@ print("""\n\n BASKETBALL TEAM STATS TOOL!!!\n\n
    B) Quit\n
    \n
    """)
+
+
+
+
+
+clean_data()
+
+teams_list2 = balance_teams (player_list)
+Panthers = teams_list2[0]
+Bandits = teams_list2[1]
+Warriors = teams_list2[2]
+
+
 
 while True:
     select_option()
